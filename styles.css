@@ -1,0 +1,77 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.pngitem.com/pimgs/m/196-1967533_hello-kitty-valentines-day-png-download-hello-kitty.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+    color: #ff69b4;
+}
+
+/* Illustrations */
+.ilustraciones {
+    margin-bottom: 30px;
+}
+
+.kitty-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.heart-img {
+    width: 80px;
+    height: auto;
+    margin-top: -15px;
+}
+
+/* Carta */
+.carta {
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.remitente, .destinatario {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.remitente span, .destinatario span {
+    color: #ff1493;
+}
+
+.mensaje-texto {
+    text-align: left;
+    color: #333;
+    margin-top: 20px;
+}
